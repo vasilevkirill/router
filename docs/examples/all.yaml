@@ -1,1 +1,10 @@
 version: 1
+interfaces:
+  ethernet:
+    - name: eth1
+      mac-address: 01:02:03:04:05:06
+      description: wan
+      id: 1
+    - name: eth2
+      mac-address: 01:02:03:04:05:07
+      description: lan
